@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: argocd/python-manifests
+    path: argocd/python-manifest
     repoURL: https://github.com/z11373/python-helloworld 
     targetRevision: HEAD
   syncPolicy: {}
